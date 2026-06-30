@@ -89,7 +89,7 @@ jobs:
           node-version: '18'
 
       - name: Install Cypress dependencies
-        run: npm ci
+        run: npm install
         working-directory: cypress-tests
 
       - name: Debug URL
